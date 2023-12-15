@@ -1,4 +1,4 @@
-# Assess-Compressor
+# Evaluate Knowledge Distillation for Pre-trained Code Models
 This repository contains the code and data for the paper "What is Lost in Knowledge Distillation for Pre-trained Code Models"
 
 
