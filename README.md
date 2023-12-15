@@ -1,9 +1,12 @@
 # Assess-Compressor
-This repository contains the code and data for the paper "Assessing the Stability, Generalizability and Robustness of Compressor"
+This repository contains the code and data for the paper "What is Lost in Knowledge Distillation for Pre-trained Code Models"
 
 
 ## Clone Detection and Defect Detection
 We directly use the official implementation of [Compressor](https://github.com/soarsmu/Compressor) to compress the CodeBERT and GraphCodeBERT model into smaller sizes such as 3MB and 50MB.
+
+## Exception Type
+Following the work of [Niu et al.](https://arxiv.org/abs/2302.04026), we also conduct experiements on the exception type prediciton task.
 
 ## Code Classification
 We use three different datasets in our code classification experiments, namely POJ104, Java250 and Python800. The datasets can be downloaded from the following sources:
